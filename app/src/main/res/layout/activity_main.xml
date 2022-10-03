@@ -38,8 +38,10 @@
         android:clickable="true"
         android:contentDescription="@string/show"
         android:focusable="true"
+        app:backgroundTint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@android:drawable/btn_star"
+        app:tint="@color/white" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
